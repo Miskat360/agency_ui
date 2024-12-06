@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout";
 import HomeBanner from "@/components/layout/banner/HomeBanner";
 import Agency from "@/components/containers/home/Agency";
 import PortfolioText from "@/components/containers/home/PortfolioText";
+import HomeOffer from "@/components/containers/home/HomeOffer";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <HomeBanner />
       <Agency />
       <PortfolioText />
-      {/* <HomeOffer /> */}
+      <HomeOffer />
       {/* <HomeTestimonial /> */}
       {/* <HomeBlog /> */}
       {/* <HomeSponsor /> */}
