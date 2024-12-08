@@ -4,6 +4,7 @@ import HomeBanner from "@/components/layout/banner/HomeBanner";
 import Agency from "@/components/containers/home/Agency";
 import PortfolioText from "@/components/containers/home/PortfolioText";
 import HomeOffer from "@/components/containers/home/HomeOffer";
+import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <Agency />
       <PortfolioText />
       <HomeOffer />
-      {/* <HomeTestimonial /> */}
+      <HomeTestimonial />
       {/* <HomeBlog /> */}
       {/* <HomeSponsor /> */}
       {/* <NextPage /> */}
