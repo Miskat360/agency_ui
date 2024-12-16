@@ -7,6 +7,7 @@ import HomeOffer from "@/components/containers/home/HomeOffer";
 import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
 import HomeBlog from "@/components/containers/home/HomeBlog";
 import HomeSponsor from "@/components/containers/home/HomeSponsor";
+import NextPage from "@/components/containers/home/NextPage";
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
       <HomeTestimonial />
       <HomeBlog />
       <HomeSponsor />
-      {/* <NextPage /> */}
+      <NextPage />
     </Layout>
   );
 };
